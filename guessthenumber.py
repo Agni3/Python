@@ -14,7 +14,7 @@ while (end==0):
 	if	int(userinput)!=randomnum:
 		lives = int(lives) - 1
 	if  int(lives) == 0:
-		print("Game over :C")
+		print("Game over, the number was {} :C".format(randomnum))
 		break
 	if int(userinput)>randomnum:
 		print("Aghh...Lower!!")
